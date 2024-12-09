@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+
+.listing-cards{
+    margin-top:2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.card{
+    overflow: hidden;
+    margin-bottom: 2rem;
+    border: none;
+}
+
+.card-show:hover{
+    opacity: 0.85;
+}
+
+.card-body{
+    padding: 1rem 1rem 0rem 0rem;
+}
+.add-btn{
+    background-color: #dc1254;
+    border: 0;
+}
+
+.show-img{
+    height: 50vh;
+}
+
+.edit-btn{
+    background-color: #dc1254;
+    border: 0;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.err404{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.fa-face-sad-tear{
+    color: #dc1254;
+    font-size: 18rem;
+    font-weight:100;
+    margin-bottom: 1rem;
+}
+
+.err404-message{
+    text-align: center;
+    font-size: 3rem;
+    width: 100%;
+}
+
+.err404-message2{
+    font-size: 2rem;
+}

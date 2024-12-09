@@ -1,0 +1,28 @@
+.footer{
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.f-options a:hover{
+    text-decoration: underline;
+}
+.f-socials i{
+    font-size: 1.5rem;
+}
+.f-socials{
+    width: 8rem;
+    display: flex;
+    height: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.f-options,.f-company{
+    display: flex;
+    height: 2rem;
+    align-items: center;
+}

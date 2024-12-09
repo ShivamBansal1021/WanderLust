@@ -1,0 +1,20 @@
+.brand{
+    display: flex;
+    align-items: center;
+}
+.brand-icon{
+    height: 3.25rem;
+}
+.brand-name{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #dc1254;
+}
+.navbar{
+    background-color: white;
+}
+.login a{
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}

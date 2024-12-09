@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "WanderLust";
+    src: url("./AirbnbCerealVF_W_Wght.9c00198218646e3b3f345aa4bc3fda51.woff2") format("woff2");
+}
+*{
+    font-family:"WanderLust";
+}
